@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+main {
+  background-color: #e0e9e6;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header img {
+  float: left;
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004c6d;
+  width: 80px;
+}
+
+.menu {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: left;
+  padding: 1.5rem;
+}
+
+.hero-section h1 {
+  font-size: 1.8rem;
+  color: #004c6d;
+  margin-bottom: 1rem;
+  font-family: "Bebas Neue", serif;
+}
+
+.hero-section p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+  font-family: "Open Sans", serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 335px;
+  height: 288px;
+  object-fit: cover;
+}
+
+/* Container voor de activiteiten */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+/* Styling van elk activiteit blok */
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+/* Afbeeldingen */
+.activity img {
+  width: 100%;
+  height: auto;
+}
+
+/* Tekstlabels */
+.label {
+  background-color: #007b8f;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Footer stijl */
+.footer {
+  background-color: #001433;
+  color: #ffffff;
+  padding: 20px 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-logo h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #00bcd4;
+}
+
+.footer-logo a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+footer img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for phones */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for desktops */
+}
