@@ -4,13 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="events.css" />
+    <script
+      src="https://kit.fontawesome.com/b171e34bd2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Maxime-Claeskens-Statische-website</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <img src="img/Logo.png" alt="Logo" />
-        <div class="menu">&#9776;</div>
+        <div class="logo"></div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <ul class="menu">
+          <li><a href="#about">About us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -96,51 +111,47 @@
       </div>
     </div>
 
-  <!-- Footer Sectie -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-logo">
-        <img src="img/Logo.png" alt="logo">
-        <p>Follow us on:</p>
-        <a href="#">Facebook</a> | 
-        <a href="#">Instagram</a> | 
-        <a href="#">Twitter</a> | 
-        <a href="#">YouTube</a>
-        <p>&copy; 2024 CSS. All Rights Reserved.<br>Dedicated to teamwork and community.</p>
+    <!-- Footer Sectie -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="img/Logo.png" alt="logo" />
+          <p>Follow us on:</p>
+          <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+          <a href="#">Twitter</a> |
+          <a href="#">YouTube</a>
+          <p>
+            &copy; 2024 CSS. All Rights Reserved.<br />Dedicated to teamwork and
+            community.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">Accessoires</a></li>
+              <li><a href="#">Most sold</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>About us</h3>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Our vision</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Agenda</h3>
+            <ul>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">General rules</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <div class="footer-links">
-        <div class="footer-column">
-          <h3>Shop</h3>
-          <ul>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Accessoires</a></li>
-            <li><a href="#">Most sold</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>About us</h3>
-          <ul>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Our vision</a></li>
-            <li><a href="#">Register</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Agenda</h3>
-          <ul>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">General rules</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
-
-
-    <header></header>
+    </footer>
   </body>
 </html>
